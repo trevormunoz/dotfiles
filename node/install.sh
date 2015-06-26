@@ -1,4 +1,7 @@
-if test ! $(which spoof)
+#!/bin/sh
+
+if test ! $(which node)
 then
-  sudo npm install spoof -g
+  echo "  Installing nodejs for you."
+  brew install node > /tmp/nodejs-install.log
 fi
