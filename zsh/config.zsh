@@ -11,6 +11,8 @@ fpath=($ZSH/functions $fpath)
 
 autoload -U $ZSH/functions/*(:t)
 
+plugins=(osx history history-substring-search autojump)
+
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
