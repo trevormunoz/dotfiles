@@ -1,3 +1,13 @@
 .DS_Store
 *~
 *.swp
+.vagrant
+**/secret.yml
+*.cert
+*.crt
+*.key
+node_modules
+bower_components
+.ipynb_checkpoints
+__pycache__
+*.pyc
