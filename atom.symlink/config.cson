@@ -24,10 +24,12 @@
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "linter-shellcheck"
+    ]
   "spell-check":
     grammars: [
       "text.plain"
@@ -37,3 +39,7 @@
     ]
   welcome:
     showOnStartup: false
+  "release-notes":
+    viewedVersion: "0.89.0"
+  tabs:
+    usePreviewTabs: true
