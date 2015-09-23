@@ -44,8 +44,6 @@ source /usr/local/share/zsh/site-functions/_aws
 
 eval "$(thefuck --alias)"
 
-source ~/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/tmuxinator-0.6.11/completion/tmuxinator.zsh
-
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
