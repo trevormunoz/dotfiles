@@ -25,6 +25,7 @@
       "metrics"
       "linter-shellcheck"
     ]
+    followSymlinks: false
   "spell-check":
     grammars: [
       "text.plain"

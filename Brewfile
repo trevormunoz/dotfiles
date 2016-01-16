@@ -1,0 +1,17 @@
+cask_args appdir: '/Applications'
+
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+
+brew 'ansible'
+brew 'awscli'
+brew 'jq'
+brew 'node'
+brew 'pandoc'
+brew 'parallel'
+brew 'reattach-to-user-namespace'
+brew 'tmux'
+brew 'tree'
+brew 'wget'
+brew 'zsh-history-substring-search'
+brew 'zsh-syntax-highlighting'
