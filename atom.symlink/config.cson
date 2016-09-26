@@ -1,9 +1,16 @@
 "*":
+  Zen:
+    minimap: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "bcbe9ba5-fbde-41a6-bb7d-75a0ac9a10e6"
   core:
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
+      "linter-shellcheck"
+      "language-javascript"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -15,21 +22,34 @@
       "tmp"
       "vendor"
     ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
   editor:
-    fontFamily: "Menlo"
-    invisibles: {}
-    showIndentGuide: true
-    softWrapAtPreferredLineLength: true
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
       "linter-shellcheck"
     ]
+    fontFamily: "Fira Mono"
+    fontSize: 16
+    invisibles: {}
+    lineHeight: 1.35
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "language-babel":
+    autoIndentJSX: true
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "linter-scss-lint":
+    executablePath: "/Users/umd-laptop/.rbenv/shims/scss-lint"
+  "one-dark-ui":
+    layoutMode: "Spacious"
+    tabSizing: "Even"
+  "release-notes":
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
@@ -37,9 +57,9 @@
       "text.git-commit"
       "text.html.basic"
     ]
-  welcome:
-    showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
   tabs:
     usePreviewTabs: true
+  welcome:
+    showOnStartup: false
+  "tree-view":
+    hideVcsIgnoredFiles: false

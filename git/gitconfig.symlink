@@ -31,3 +31,10 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[user]
+	name = Trevor Muñoz
+	email = trevor@trevormunoz.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
