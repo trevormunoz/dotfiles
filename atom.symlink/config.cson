@@ -48,8 +48,6 @@
   "one-dark-ui":
     layoutMode: "Spacious"
     tabSizing: "Even"
-  "release-notes":
-    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
@@ -63,3 +61,5 @@
     showOnStartup: false
   "tree-view":
     hideVcsIgnoredFiles: false
+  "release-notes":
+    viewedVersion: "0.89.0"
